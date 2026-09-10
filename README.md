@@ -4,7 +4,7 @@
 Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal
 Processing Society Challenge Program.
 
-**Accepting Submissions!**
+
 
 ---
 
