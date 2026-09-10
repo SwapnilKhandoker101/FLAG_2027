@@ -1,0 +1,5 @@
+/ground_truth/
+/feature_extraction/models/
+/feature_extraction/Pre_Extracted_vggFace_ecapa_Features/
+/v4_model_checkpoints/
+/sub_score_v4/
