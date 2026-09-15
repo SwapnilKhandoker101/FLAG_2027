@@ -59,18 +59,19 @@ for Improved Face-Voice Association*
 ([paper](https://ieeexplore.ieee.org/abstract/document/9747704) ·
 [code](https://github.com/msaadsaeed/FOP)).
 
-## Results
-
-| Phase | Config.    | Standard Eng. test | Standard Bengali test | Gender-Constrained Eng. test | Gender-Constrained Bengali test | Overall Score |
-|-------|------------|-------------------:|----------------------:|-----------------------------:|--------------------------------:|--------------:|
-| Dev   | Eng. train | 32.54              | 38.12                 | 32.99                        | 44.01                           | 36.92         |
-| Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
 
 | Component | Model |
 | --- | --- |
 | Face encoder | VGGFace |
 | Voice encoder | ECAPA-TDNN |
 | Fusion | Two-branch network with orthogonal projection |
+
+## Results
+
+| Phase | Config.    | Standard Eng. test | Standard Bengali test | Gender-Constrained Eng. test | Gender-Constrained Bengali test | Overall Score |
+|-------|------------|-------------------:|----------------------:|-----------------------------:|--------------------------------:|--------------:|
+| Dev   | Eng. train | 32.54              | 38.12                 | 32.99                        | 44.01                           | 36.92         |
+| Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
 
 ## Hierarchy
 
