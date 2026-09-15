@@ -112,6 +112,3 @@ Remaining dependencies:
 pip install -r requirements.txt
 
 ```
-
-## Last Year Results
-
