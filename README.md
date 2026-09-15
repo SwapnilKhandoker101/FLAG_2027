@@ -61,10 +61,10 @@ for Improved Face-Voice Association*
 
 ## Results
 
-| Method   | Phase | Config.    | Standard Eng. test | Standard Bengali test | Gender-Constrained Eng. test | Gender-Constrained Bengali test | Overall Score |
-|----------|-------|------------|-------------------:|----------------------:|-----------------------------:|--------------------------------:|--------------:|
-| FOP      | Dev   | Eng. train | 32.54              | 38.12                 | 32.99                        | 44.01                           | 36.92         |
-| FOP      | Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
+| Phase | Config.    | Standard Eng. test | Standard Bengali test | Gender-Constrained Eng. test | Gender-Constrained Bengali test | Overall Score |
+|-------|------------|-------------------:|----------------------:|-----------------------------:|--------------------------------:|--------------:|
+| Dev   | Eng. train | 32.54              | 38.12                 | 32.99                        | 44.01                           | 36.92         |
+| Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
 
 | Component | Model |
 | --- | --- |
