@@ -1,8 +1,7 @@
-# FLAG 2027 Challenge — Baseline
+# FLAG 2027 Grand Challenge  
 
 **Face-voice Association across LAnguages and Gender (FLAG) 2027**
-Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal
-Processing Society Challenge Program.
+Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal Processing Society Challenge Program.
 
 
 
@@ -10,9 +9,7 @@ Processing Society Challenge Program.
 
 ## Task
 
-Face-voice association is established through a **cross-modal verification**
-task: given a single sample containing both a face and a voice, verify whether
-both belong to the same identity.
+Face-voice association is established through a **cross-modal verification** task: given a single sample containing both a face and a voice, verify whether both belong to the same identity.
 
 FLAG 2027 extends this along two dimensions, evaluated as separate tracks:
 
