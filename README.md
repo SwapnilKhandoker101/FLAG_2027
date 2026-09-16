@@ -6,6 +6,8 @@ Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal Process
 
 
 ---
+## Registration
+The following [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeJH4uvcWNjqSi7CssNthIv80GdrszjIvuNp4UN77-KMNzgZg/viewform?usp=sharing&ouid=112056064502733681727) will be used to allow participants to register their teams to the challenge.
 
 ## Task
 
