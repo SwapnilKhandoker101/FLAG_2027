@@ -72,6 +72,9 @@ for Improved Face-Voice Association*
 | Dev   | Eng. train | 32.54              | 38.12                 | 32.99                        | 44.01                           | 36.92         |
 | Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
 
+## Submission Platform
+Participants will submit their predictions through the [CodaBench](https://www.codabench.org/competitions/9467/) platform, where their performance will be automatically evaluated and scored.
+
 ## Hierarchy
 
 ```
