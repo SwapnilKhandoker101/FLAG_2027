@@ -29,7 +29,7 @@ gender. Samples are drawn from YouTube interviews, talk shows, and television
 debates, and include real-world variation in pose, lighting, motion blur,
 occlusion, background chatter, and compression artifacts.
 
-The [download folder] (https://drive.google.com/drive/folders/1YFVLHIWu0yBQYOIgjTvfK7d_M_fsfzn8?usp=sharing) contains the training and development sets, including both the raw data files and the corresponding pre-extracted audio-visual features.
+The [download folder](https://drive.google.com/drive/folders/1YFVLHIWu0yBQYOIgjTvfK7d_M_fsfzn8?usp=sharing) contains the training and development sets, including both the raw data files and the corresponding pre-extracted audio-visual features.
 ```
 data/
 ├── voices/
