@@ -32,14 +32,64 @@ debates, and include real-world variation in pose, lighting, motion blur,
 occlusion, background chatter, and compression artifacts.
 
 The [download folder](https://drive.google.com/drive/folders/1YFVLHIWu0yBQYOIgjTvfK7d_M_fsfzn8?usp=sharing) contains the training and development sets, including both the raw data files and the corresponding pre-extracted audio-visual features. The meta file for training set with gender details can be downloaded [here](https://drive.google.com/file/d/1TLaDoCW5Eh18uhPSu-BhEiGxbL6kNwWJ/view?usp=sharing).  
+
 ```
-data/
-├── voices/
-│   ├── English/
-│   └── Bengali/
-└── faces/
-    ├── English/
-    └── Bengali/
+train_set/
+├── features/
+│   ├── faces/
+│   │   └── train_English_faces.csv      # 6,485 rows × 4,097 cols (4,096-d face embedding + class label)
+│   └── voices/
+│       └── train_English_voices.csv     # 6,485 rows × 193 cols (192-d voice embedding + class label)
+└── train_set/
+    ├── train_English.txt                # 6,485 lines, file list with labels (format below)
+    ├── faces/
+    │   └── English/
+    │       ├── id001/
+    │       │   ├── 00036.jpg
+    │       │   ├── 00056.jpg
+    │       │   └── ...
+    │       ├── id002/
+    │       └── ... id070/               # 70 identities, 6,485 .jpg total
+    └── voices/
+        └── English/
+            ├── id001/
+            │   ├── 00036.wav
+            │   ├── 00056.wav
+            │   └── ...
+            ├── id002/
+            └── ... id070/               # 70 identities, 6,485 .wav total
+```
+
+```
+dev_set/
+├── gender/
+│   ├── English_test.txt                 # 982 lines
+│   ├── Bangla_test.txt                  # 1,468 lines
+│   ├── features/
+│   │   ├── English_test_faces.csv       # 982 × 4,096
+│   │   ├── English_test_voices.csv      # 982 × 192
+│   │   ├── Bangla_test_faces.csv        # 1,468 × 4,096
+│   │   └── Bangla_test_voices.csv       # 1,468 × 19
+│   ├── English_test/
+│   │   ├── faces/    00000.jpg ... (982 files)
+│   │   └── voices/   00000.wav ... (982 files)
+│   └── Bangla_test/
+│       ├── faces/    00000.jpg ... (1,468 files)
+│       └── voices/   00000.wav ... (1,468 files)
+└── no_gender/
+    ├── English_test.txt                 # 1,008 line
+    ├── Bangla_test.txt                  # 1,406 lines
+    ├── features/
+    │   ├── English_test_faces.csv       # 1,008 × 4,096
+    │   ├── English_test_voices.csv      # 1,008 × 19
+    │   ├── Bangla_test_faces.csv        # 1,406 × 4,096
+    │   └── Bangla_test_voices.csv       # 1,406 × 19
+    ├── English_test/
+    │   ├── faces/    00000.jpg ... (1,008 files)
+    │   └── voices/   00000.wav ... (1,008 files)
+    └── Bangla_test/
+        ├── faces/    00000.jpg ... (1,406 files)
+        └── voices/   00000.wav ... (1,406 files)
 ```
 
 Pair list files use the format:
