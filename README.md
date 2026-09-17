@@ -31,7 +31,7 @@ gender. Samples are drawn from YouTube interviews, talk shows, and television
 debates, and include real-world variation in pose, lighting, motion blur,
 occlusion, background chatter, and compression artifacts.
 
-The [download folder](https://drive.google.com/drive/folders/1YFVLHIWu0yBQYOIgjTvfK7d_M_fsfzn8?usp=sharing) contains the training and development sets, including both the raw data files and the corresponding pre-extracted audio-visual features.
+The [download folder](https://drive.google.com/drive/folders/1YFVLHIWu0yBQYOIgjTvfK7d_M_fsfzn8?usp=sharing) contains the training and development sets, including both the raw data files and the corresponding pre-extracted audio-visual features. The meta file for training set with gender details can be downloaded [here](https://drive.google.com/file/d/1TLaDoCW5Eh18uhPSu-BhEiGxbL6kNwWJ/view?usp=sharing).  
 ```
 data/
 ├── voices/
@@ -51,12 +51,7 @@ tog3zj45  voices/English/00001.wav  faces/English/00001.jpg
 
 ## Baseline
 
-The baseline is a two-branch network over pre-extracted face and voice
-embeddings, trained with an orthogonality constraint on the multimodal
-embeddings of different speakers. It follows *Fusion and Orthogonal Projection
-for Improved Face-Voice Association*
-([paper](https://ieeexplore.ieee.org/abstract/document/9747704) ·
-[code](https://github.com/msaadsaeed/FOP)).
+The baseline is a two-branch network over pre-extracted face and voice embeddings, trained with an orthogonality constraint on the multimodal embeddings of different speakers. It follows *Fusion and Orthogonal Projection for Improved Face-Voice Association* ([paper](https://ieeexplore.ieee.org/abstract/document/9747704), [code](https://github.com/msaadsaeed/FOP)).
 
 
 | Component | Model |
