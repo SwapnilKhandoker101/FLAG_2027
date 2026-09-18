@@ -118,7 +118,7 @@ The baseline is a two-branch network over pre-extracted face and voice embedding
 | Eval  | Eng. train | 29.10              | 32.90                 | 39.4                         | 39.90                           | 35.32         |
 
 ## Submission Platform
-Participants will submit their predictions through the [CodaBench](https://www.codabench.org/competitions/9467/) platform, where their performance will be automatically evaluated and scored.
+Participants will submit their predictions through the [CodaBench](https://www.codabench.org/competitions/18062/) platform, where their performance will be automatically evaluated and scored.
 
 ## Hierarchy
 
