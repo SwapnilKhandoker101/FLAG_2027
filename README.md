@@ -1,7 +1,7 @@
 # FLAG 2027 Grand Challenge  
 
 **Face-voice Association across LAnguages and Gender (FLAG) 2027** Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal Processing Society Challenge Program.
-For details, please follow [evaluation plan](https://arxiv.org/abs/2609.17913).
+For details, please follow [evaluation plan](https://arxiv.org/abs/2609.17913) and [Grand Challenge Website](https://mavceleb.github.io/dataset/competition.html)
 
 
 
