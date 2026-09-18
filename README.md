@@ -1,4 +1,4 @@
-<img width="591" height="667" alt="image" src="https://github.com/user-attachments/assets/8dcab702-1eaa-41b3-930e-a7ce099c9ccf" /># FLAG 2027 Grand Challenge  
+# FLAG 2027 Grand Challenge  
 
 **Face-voice Association across LAnguages and Gender (FLAG) 2027** Accepted as an ICASSP 2027 Grand Challenge, supported by the IEEE Signal Processing Society Challenge Program.
 For details, please follow [evaluation plan](https://arxiv.org/abs/2609.17913).
